@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Training Site</title>
+	<link rel="stylesheet" type="text/css" href="/registration.css">
+
+</head>
+<body>
+
+	<div class="registration">
+	
+		<h3>Registration</h3>
+		<form action="/client/add" method="post">
+		<p> First Name : </p>   <input type="text" name="first_name">
+		<p> Last Name : </p>   <input type="text" name="last_name">
+		<input hidden type="text" name="status" value="client">
+		<p> Phone Number : </p>   <input type="text" name="phone_number">
+		<p> Email : </p><input type="text" name="email">
+		<p> Password : </p>    <input type="password" name="password">
+		<p> Confirm Password : </p>    <input type="password" name="pw_confirm">
+		<button type="submit">Register</button>
+	</form>
+
+		<% if( message.length != 0 ) { %>
+		<h3 class="messages"><%= message[0].password %></h3>
+		<% } %>
+
+	</div>
+
+
+
+</body>
+</html>

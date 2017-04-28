@@ -1,0 +1,17 @@
+{
+  "name": "Trainer",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Hans Sono <hans.sono23@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
